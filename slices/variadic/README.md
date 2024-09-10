@@ -31,9 +31,9 @@ The spread operator allows us to pass a slice *into* a variadic function. The sp
 
 ```go
 func printStrings(strings ...string) {
-	for i := 0; i < len(strings); i++ {
-		fmt.Println(strings[i])
-	}
+    for i := 0; i < len(strings); i++ {
+        fmt.Println(strings[i])
+    }
 }
 
 func main() {

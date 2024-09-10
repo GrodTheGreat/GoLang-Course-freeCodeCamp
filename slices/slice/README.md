@@ -16,7 +16,7 @@ mySlice := primes[1:4]
 
 The syntax is:
 
-```
+```go
 arrayname[lowIndex:highIndex]
 arrayname[lowIndex:]
 arrayname[:highIndex]
