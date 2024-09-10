@@ -4,9 +4,9 @@ Methods with pointer receivers don't require that a pointer is used to call the 
 
 ```go
 type circle struct {
-	x int
-	y int
-    radius int
+  x int
+  y int
+  radius int
 }
 
 func (c *circle) grow(){
