@@ -44,7 +44,7 @@ Complete the `printPrimes` function. It should print all of the prime numbers up
 
 Here's the psuedocode:
 
-```
+```psuedocode
 printPrimes(max):
   for n in range(2, max+1):
     if n is 2:

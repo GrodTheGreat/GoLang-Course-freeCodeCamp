@@ -6,25 +6,25 @@ A type switch is similar to a regular switch statement, but the cases specify *t
 
 ```go
 func printNumericValue(num interface{}) {
-	switch v := num.(type) {
-	case int:
-		fmt.Printf("%T\n", v)
-	case string:
-		fmt.Printf("%T\n", v)
-	default:
-		fmt.Printf("%T\n", v)
-	}
+  switch v := num.(type) {
+  case int:
+    fmt.Printf("%T\n", v)
+  case string:
+    fmt.Printf("%T\n", v)
+  default:
+    fmt.Printf("%T\n", v)
+  }
 }
 
 func main() {
-	printNumericValue(1)
-	// prints "int"
+  printNumericValue(1)
+  // prints "int"
 
-	printNumericValue("1")
-	// prints "string"
+  printNumericValue("1")
+  // prints "string"
 
-	printNumericValue(struct{}{})
-	// prints "struct {}"
+  printNumericValue(struct{}{})
+  // prints "struct {}"
 }
 ```
 

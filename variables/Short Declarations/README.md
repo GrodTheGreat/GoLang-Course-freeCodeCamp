@@ -8,7 +8,6 @@ var empty string
 
 Is the same as
 
-
 ```go
 empty := ""
 ```

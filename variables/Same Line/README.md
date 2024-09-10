@@ -10,6 +10,7 @@ mileage, company := 80276, "Tesla"
 mileage := 80276
 company := "Tesla"
 ```
+
 ## Assignment
 
 Within the main function, declare a float called `averageOpenRate` and string called `displayMessage` on the same line.

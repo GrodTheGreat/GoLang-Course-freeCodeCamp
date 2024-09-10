@@ -29,7 +29,7 @@ Our users are frequently trying to run custom analytics queries on their message
 
 Update the code so that the `divideError` type implements the `error` interface. Its `Error()` method should just return a string formatted in the following way:
 
-```
+```text
 can not divide DIVIDEND by zero
 ```
 

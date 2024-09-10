@@ -4,11 +4,11 @@ When working with interfaces in Go, every once-in-awhile you'll need access to t
 
 ```go
 type shape interface {
-	area() float64
+  area() float64
 }
 
 type circle struct {
-	radius float64
+  radius float64
 }
 
 // "c" is a new circle cast from "s"

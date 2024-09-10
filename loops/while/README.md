@@ -21,7 +21,7 @@ fmt.Println("plant has grown to ", plantHeight, "inches")
 
 Which prints:
 
-```
+```text
 still growing! current height: 1
 still growing! current height: 2
 still growing! current height: 3

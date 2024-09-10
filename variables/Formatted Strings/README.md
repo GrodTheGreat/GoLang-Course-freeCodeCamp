@@ -50,7 +50,7 @@ If you're interested in all the formatting options, feel free to take a look at 
 
 Create a new variable called `msg` on line 9. It's a string that contains the following:
 
-```
+```txt
 Hi NAME, your open rate is OPENRATE percent
 ```
 
