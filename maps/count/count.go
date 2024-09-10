@@ -11,10 +11,9 @@ func getCounts(userIDs []string) map[string]int {
 	for _, userID := range userIDs {
 		_, ok := userCounts[userID]
 		if !ok {
-			userCounts[userID] = 1
-		} else {
-			userCounts[userID] += 1
+			userCounts[userID] = 0
 		}
+		userCounts[userID] += 1
 	}
 
 	return userCounts
